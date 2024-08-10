@@ -1,21 +1,12 @@
 # Portfolio-Optimization-and-Efficient-Frontier
 Contains code using which I attempt to generate optimal portfolios and efficient frontier based on NIFTYBANK index stocks
 
-## [Please visit my site for this project here -> it naturally contains way better UI/UX and interactive plots for your convenience!](https://raghavsikaria.github.io/posts/2020-05-31-portfolio-allocation-and-efficient-frontier-generation)
-
 [nifty_bank_stocks_lognormal_daily_returns_img_path]: assets/NIFTYBANK_df_log_returns_histogram.png
 [nifty_bank_stocks_cumulative_returns_img_path]: assets/NIFTYBANK_df_norm_returns.png
 [nifty_bank_hiiks_efficient_frontier_img_path]: assets/NIFTYBANK_HIIKS_portfolio_efficient_frontier.png
 [nifty_bank_efficient_frontier_img_path]: assets/NIFTYBANK_portfolio_efficient_frontier.png
 [nifty_bank_hiiks_efficient_frontier_gif_path]: assets/NIFTYBANK_HIIKSportfolio_efficient_frontier_gif.gif
 
-
-So sometime back, I finished the famous [**Python For Financial Analysis and Algorithmic Trading**](https://www.udemy.com/course/python-for-finance-and-trading-algorithms/) on _Udemy_ by the genius instructor [**Jose Portilla**](https://www.linkedin.com/in/jmportilla/).
-In this project, I attempt to reuse the code provided in the course, extend it for generalization in Python and add some great & interactive visualizations using Bokeh. And I have chosen to work on NIFTYBANK Index Portfolio.
-
-P.S: Like always all code can be found [here](https://github.com/raghavsikaria/Portfolio-Optimization-and-Efficient-Frontier) on GitHub.
-
-**TL;DR** - This is what this project attempts to achieve:
 
 ![NIFTYBANK - HDFC,ICICI,INDUSIND,KOTAK,SBI - Efficient Portfolio Frontier][nifty_bank_hiiks_efficient_frontier_gif_path]
 
