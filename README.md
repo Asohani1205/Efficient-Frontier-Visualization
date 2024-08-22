@@ -100,9 +100,6 @@ nifty_bank_df.to_csv('nifty_bank_df_2018-4-2_to_2020-5-22.csv',index_label='Date
 
 Let's try and churn out some insights from our generated data.
 
-### Correlation between all NIFTYBANK Index stocks
-
-I have generated this correlation matrix using one of my other projects. You can find the entire code [here](https://github.com/raghavsikaria/Bokeh_CorrelationMatrix) in GitHub. (Available on [my site](https://raghavsikaria.github.io/posts/2020-05-31-portfolio-allocation-and-efficient-frontier-generation), it's interactive!)
 
 
 ### NIFTYBANK Index Stocks - Daily Lognormalized Returns
@@ -241,7 +238,6 @@ def generate_efficient_frontier(number_of_stocks: 'int', frontier_min_return: 'f
 
 ## Plotting the Efficient Frontier and Universe of Portfolios
 
-And now at last, we have to visualise our universe of created portfolios and efficient frontier mentioned in above sections. I have deliberatly not embedded interactive versions of the plots here as they were making the site pretty heavy. You can head over to the [repository](https://github.com/raghavsikaria/Portfolio-Optimization-and-Efficient-Frontier) and checkout all the Plot HTML files and play around with them.
 
 ~~~ python
 def plot_efficient_frontier(title: 'str', plot_save_path: 'str', plot_image_save_path: 'str', all_portfolio_volatility: 'np array', all_portfolio_returns: 'np array', all_portfolio_sharpe_ratio: 'np array', max_sharpe_ratio_location: '[x,y] Coordinates', max_sharpe_ratio: 'float', efficient_frontier_returns: 'list', efficient_frontier_volatility: 'list', plot_width: 'int' = 1000, plot_height: 'int' = 800, axes_labels: '[X-axis label, Y-axis label]' = ['Portfolio Volatility', 'Portfolio Returns']) -> 'Bokeh Plot Object':
@@ -312,13 +308,6 @@ Reasons:
 
 ![NIFTYBANK - Efficient Portfolio Frontier][nifty_bank_efficient_frontier_img_path]
 
-
-This was basically the entire project. If you're up for it, let's collaborate over [GitHub](https://github.com/raghavsikaria/Portfolio-Optimization-and-Efficient-Frontier) and make this better.
-You can also reach out to me incase you have any queries pertaining to Bokeh or anything Python. Hope this helps!
-
-## Acknowledgements
-
-My sincere thanks to [Jose Portilla](https://www.linkedin.com/in/jmportilla/) and Udemy for curating and delivering one of the best Financial Analysis courses ever!
 
 ## References
 * https://www.udemy.com/course/python-for-finance-and-trading-algorithms/
