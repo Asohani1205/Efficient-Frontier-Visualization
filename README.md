@@ -33,7 +33,7 @@ Contains code using which I attempt to generate optimal portfolios and efficient
 
 ## Data Generation
 
-Well, to work on a portfolio of NIFTYBANK we first need the data! The current index has 12 constituents of which Bandhan Bank was the newest entry(added when it went Public on 27th March 2018). Hence, for this project I have decided to work only on data from 4th April 2018 to 22th May 2020. Let's see what the index looks like today (As of 25th May 2020)
+Well, to work on a portfolio of NIFTYBANK we first need the data! The current index has 12 constituents of which Bandhan Bank was the newest entry(added when it went Public on 27th March 2018). Hence, for this project I have decided to work only on data from 4th April 2018 to 22th May 2020. Let's see what the index looks like(As of 25th May 2020)
 
 
 | Company | Symbol | Sector | Ownership | Closing Price | Market Cap (Cr.) | 
